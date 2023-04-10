@@ -6,12 +6,12 @@
   <remote fetch="git://github.com/jumpnow" name="meta-rpi"/>
   <remote fetch="git://github.com/manaragili" name="rpi"/>
 
- <project remote="yocto" name="poky" revision="sumo" path="sources/poky"/>
- <project remote="yocto" name="meta-raspberrypi" revision="sumo" path="sources/meta-raspberrypi"/>
- <project remote="yocto" name="meta-security" revision="sumo" path="sources/meta-security"/>
- <project remote="oe" name="meta-openembedded" revision="sumo" path="sources/meta-openembedded"/>
- <project remote="meta-qt5" name="meta-qt5" revision="sumo" path="sources/meta-qt5"/>
- <project remote="meta-rpi" name="meta-rpi" revision="sumo" path="sources/meta-rpi"/>
+ <project remote="yocto" name="poky" revision="kirkstone" path="sources/poky"/>
+ <project remote="yocto" name="meta-raspberrypi" revision="kirkstone" path="sources/meta-raspberrypi" branch="2a06e4e84b04fc900f3a4524581548c9b5e57362"/>
+ <project remote="yocto" name="meta-security" revision="kirkstone" path="sources/meta-security" branch="2a06e4e84b04fc900f3a4524581548c9b5e57362"/>
+ <project remote="oe" name="meta-openembedded" revision="kirkstone" path="sources/meta-openembedded" branch="2a06e4e84b04fc900f3a4524581548c9b5e57362"/>
+ <project remote="meta-qt5" name="meta-qt5" revision="kirkstone" path="sources/meta-qt5" branch="2a06e4e84b04fc900f3a4524581548c9b5e57362"/>
+ <project remote="meta-rpi" name="meta-rpi" revision="kirkstone" path="sources/meta-rpi" branch="2a06e4e84b04fc900f3a4524581548c9b5e57362"/>
   <!-- End MODULE dev-other -->
 
 </manifest>
